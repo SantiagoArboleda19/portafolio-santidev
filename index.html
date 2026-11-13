@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Portafolio personal de Santiago Arboleda, desarrollador de software.">
+
+    <meta name="author" content="Santiago Arboleda">
+
+    <title>SantiDev | Portafolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap">
+
+    <link href="./src/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-fondo font-textos text-base leading-[1.6] text-texto">
+
+    <!-- HEADER -->
+    <header class="flex w-full flex-col items-center gap-5 bg-fondo px-6 py-5 md:flex-row md:justify-between md:px-10 md:py-6 desktop:px-16">
+
+        <a href="#inicio" class="font-titulos text-2xl font-extrabold text-texto">
+            SantiDev<span class="text-primario">.</span>
+        </a>
+
+        <nav aria-label="Navegación principal">
+
+            <ul class="flex flex-row flex-wrap items-center justify-center gap-3 md:gap-2 desktop:gap-4">
+                <li><a href="#sobre-mi" class="focus-ring inline-block rounded-lg px-[0.65rem] py-[0.4rem] text-[0.9rem] font-medium text-texto-secundario transition-colors duration-300 hover:bg-superficie hover:text-texto desktop:text-base">Sobre mí</a></li>
+                <li><a href="#tecnologias" class="focus-ring inline-block rounded-lg px-[0.65rem] py-[0.4rem] text-[0.9rem] font-medium text-texto-secundario transition-colors duration-300 hover:bg-superficie hover:text-texto desktop:text-base">Habilidades y tecnologías</a></li>
+                <li><a href="#proyectos" class="focus-ring inline-block rounded-lg px-[0.65rem] py-[0.4rem] text-[0.9rem] font-medium text-texto-secundario transition-colors duration-300 hover:bg-superficie hover:text-texto desktop:text-base">Proyectos</a></li>
+                <li><a href="#formacion" class="focus-ring inline-block rounded-lg px-[0.65rem] py-[0.4rem] text-[0.9rem] font-medium text-texto-secundario transition-colors duration-300 hover:bg-superficie hover:text-texto desktop:text-base">Formación</a></li>
+                <li><a href="#contacto" class="focus-ring inline-block rounded-lg px-[0.65rem] py-[0.4rem] text-[0.9rem] font-medium text-texto-secundario transition-colors duration-300 hover:bg-superficie hover:text-texto desktop:text-base">Contacto</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+
+        <!-- PORTADA -->
+        <section id="inicio" class="flex min-h-[40svh] flex-col items-center justify-center gap-8 px-6 py-4 text-center md:flex-row md:justify-between md:gap-12 md:px-10 md:py-12 md:text-left desktop:mx-auto desktop:min-h-[65svh] desktop:max-w-[75rem] desktop:gap-20 desktop:px-8 desktop:py-16">
+
+            <div class="flex flex-col items-center gap-4 md:flex-1 md:items-start">
+
+                <p class="text-texto-secundario">Hola, soy</p>
+
+                <h1 class="text-[2rem] md:text-[2.5rem] desktop:text-[3.5rem]">Santiago Arboleda</h1>
+
+                <h2 class="text-[1.5rem] text-secundario desktop:text-[2rem]">Desarrollador de Software</h2>
+
+                <p class="text-texto-secundario">
+                    Apasionado por la tecnología y el desarrollo
+                    de soluciones digitales. Siempre buscando
+                    aprender, crear y mejorar.
+                </p>
+
+                <a href="#contacto" class="focus-ring inline-block rounded-xl bg-primario px-[1.8rem] py-[0.8rem] text-base font-semibold text-white transition duration-300 hover:-translate-y-[0.15rem] hover:bg-secundario focus-visible:outline-texto focus-visible:outline-offset-4">
+                    Contáctame
+                </a>
+
+            </div>
+
+            <figure>
+                <img
+                    class="h-[11.25rem] w-[11.25rem] rounded-full border-[0.19rem] border-primario object-cover md:h-60 md:w-60 desktop:h-[19rem] desktop:w-[19rem]"
+                    src="img/foto-perfil.jpeg"
+                    alt="Fotografía de Santiago Arboleda"
+                >
+            </figure>
+
+        </section>
+
+
+        <!-- SOBRE MÍ -->
+        <section id="sobre-mi" class="bg-superficie px-6 py-12 md:px-10 md:py-16 desktop:px-8 desktop:py-20">
+            <div class="flex flex-col gap-5 md:mx-auto md:max-w-[60rem] desktop:max-w-[55rem]">
+                <h2 class="section-title">Sobre mí</h2>
+
+                <p class="leading-[1.7] text-texto-secundario">
+                    Soy egresado de Tecnología en Desarrollo de Software
+                    y desarrollador backend, interesado en diseñar y
+                    construir aplicaciones que ofrezcan soluciones
+                    eficientes y funcionales.
+                </p>
+
+                <p class="leading-[1.7] text-texto-secundario">
+                    Me apasiona el desarrollo de software y busco ampliar
+                    constantemente mis conocimientos en áreas como el
+                    desarrollo frontend, las bases de datos, la inteligencia
+                    artificial y la arquitectura en la nube.
+                </p>
+            </div>
+        </section>
+
+
+        <!-- TECNOLOGÍAS -->
+        <section id="tecnologias" class="bg-fondo px-6 py-12 md:px-10 md:py-16 desktop:px-8 desktop:py-20">
+            <div class="flex flex-col gap-6 md:mx-auto md:max-w-[60rem] desktop:grid desktop:grid-cols-2 desktop:gap-x-12">
+
+                <h2 class="section-title desktop:col-span-full">Habilidades y tecnologías</h2>
+
+                <p class="leading-[1.7] text-texto-secundario desktop:col-span-full">
+                    Herramientas y habilidades que forman parte
+                    de mi formación y crecimiento profesional.
+                </p>
+
+                <div class="flex flex-col gap-4">
+                    <h3 class="text-[1.2rem] text-secundario">Tecnologías</h3>
+
+                    <ul class="flex flex-wrap gap-3">
+                        <li class="rounded-lg border border-secundario/20 bg-superficie px-4 py-[0.6rem] text-[0.9rem] text-texto">C#</li>
+                        <li class="rounded-lg border border-secundario/20 bg-superficie px-4 py-[0.6rem] text-[0.9rem] text-texto">.NET</li>
+                        <li class="rounded-lg border border-secundario/20 bg-superficie px-4 py-[0.6rem] text-[0.9rem] text-texto">SQL Server</li>
+                        <li class="rounded-lg border border-secundario/20 bg-superficie px-4 py-[0.6rem] text-[0.9rem] text-texto">HTML5</li>
+                        <li class="rounded-lg border border-secundario/20 bg-superficie px-4 py-[0.6rem] text-[0.9rem] text-texto">CSS3</li>
+                        <li class="rounded-lg border border-secundario/20 bg-superficie px-4 py-[0.6rem] text-[0.9rem] text-texto">Git</li>
+                        <li class="rounded-lg border border-secundario/20 bg-superficie px-4 py-[0.6rem] text-[0.9rem] text-texto">GitHub</li>
+                        <li class="rounded-lg border border-secundario/20 bg-superficie px-4 py-[0.6rem] text-[0.9rem] text-texto">Entity Framework Core</li>
+                    </ul>
+                </div>
+
+                <div class="flex flex-col gap-4">
+                    <h3 class="text-[1.2rem] text-secundario">Habilidades</h3>
+
+                    <ul class="flex flex-wrap gap-3">
+                        <li class="rounded-lg border border-secundario/20 bg-superficie px-4 py-[0.6rem] text-[0.9rem] text-texto">Resolución de problemas</li>
+                        <li class="rounded-lg border border-secundario/20 bg-superficie px-4 py-[0.6rem] text-[0.9rem] text-texto">Pensamiento analítico</li>
+                        <li class="rounded-lg border border-secundario/20 bg-superficie px-4 py-[0.6rem] text-[0.9rem] text-texto">Trabajo en equipo</li>
+                        <li class="rounded-lg border border-secundario/20 bg-superficie px-4 py-[0.6rem] text-[0.9rem] text-texto">Aprendizaje continuo</li>
+                        <li class="rounded-lg border border-secundario/20 bg-superficie px-4 py-[0.6rem] text-[0.9rem] text-texto">Adaptabilidad</li>
+                        <li class="rounded-lg border border-secundario/20 bg-superficie px-4 py-[0.6rem] text-[0.9rem] text-texto">Comunicación</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- PROYECTOS -->
+        <section id="proyectos" class="bg-superficie px-6 py-12 md:px-10 md:py-16 desktop:px-8 desktop:py-20">
+            <div class="flex flex-col gap-6 md:mx-auto md:max-w-[60rem] desktop:max-w-[75rem]">
+
+                <h2 class="section-title">Mis proyectos</h2>
+
+                <p class="leading-[1.7] text-texto-secundario">
+                    Algunos proyectos en los que he aplicado mis
+                    conocimientos y habilidades para desarrollar
+                    soluciones de software.
+                </p>
+
+                <div class="flex flex-col gap-6 desktop:grid desktop:grid-cols-2 desktop:gap-8">
+
+                    <article class="flex flex-col gap-4 rounded-xl border border-secundario/20 bg-fondo p-4 transition duration-300 desktop:hover:-translate-y-[0.3rem] desktop:hover:border-primario">
+                        <figure>
+                            <img class="h-48 w-full rounded-lg object-cover md:h-56"
+                                src="img/api-peliculas.png"
+                                alt="Proyecto API de gestión de películas">
+                        </figure>
+
+                        <div class="flex flex-col items-start gap-4">
+                            <h3 class="text-[1.2rem] text-texto">API de gestión de películas</h3>
+
+                            <p class="leading-[1.6] text-texto-secundario">
+                                API REST para la gestión de un catálogo
+                                de películas y operaciones de alquiler,
+                                desarrollada aplicando conceptos de
+                                arquitectura backend.
+                            </p>
+
+                            <ul class="flex flex-wrap gap-2">
+                                <li class="rounded-[0.4rem] bg-superficie px-[0.7rem] py-[0.4rem] text-[0.8rem] text-secundario">C#</li>
+                                <li class="rounded-[0.4rem] bg-superficie px-[0.7rem] py-[0.4rem] text-[0.8rem] text-secundario">.NET</li>
+                                <li class="rounded-[0.4rem] bg-superficie px-[0.7rem] py-[0.4rem] text-[0.8rem] text-secundario">SQL Server</li>
+                                <li class="rounded-[0.4rem] bg-superficie px-[0.7rem] py-[0.4rem] text-[0.8rem] text-secundario">Entity Framework Core</li>
+                            </ul>
+
+                            <a href="https://github.com/SantiagoArboleda19/API.W.Movies.git"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="focus-ring inline-block rounded-lg bg-primario px-4 py-[0.65rem] font-semibold text-white transition duration-300 hover:-translate-y-[0.15rem] hover:bg-secundario">
+                                Ver repositorio
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="flex flex-col gap-4 rounded-xl border border-secundario/20 bg-fondo p-4 transition duration-300 desktop:hover:-translate-y-[0.3rem] desktop:hover:border-primario">
+                        <figure>
+                            <img class="h-48 w-full rounded-lg object-cover md:h-56"
+                                src="img/rueda-libre.png"
+                                alt="Página web Rueda Libre">
+                        </figure>
+
+                        <div class="flex flex-col items-start gap-4">
+                            <h3 class="text-[1.2rem] text-texto">Rueda Libre</h3>
+
+                            <p class="leading-[1.6] text-texto-secundario">
+                                Sitio web para un servicio de alquiler
+                                de bicicletas y recorridos guiados,
+                                diseñado con una interfaz responsive
+                                y accesible.
+                            </p>
+
+                            <ul class="flex flex-wrap gap-2">
+                                <li class="rounded-[0.4rem] bg-superficie px-[0.7rem] py-[0.4rem] text-[0.8rem] text-secundario">HTML5</li>
+                                <li class="rounded-[0.4rem] bg-superficie px-[0.7rem] py-[0.4rem] text-[0.8rem] text-secundario">CSS3</li>
+                                <li class="rounded-[0.4rem] bg-superficie px-[0.7rem] py-[0.4rem] text-[0.8rem] text-secundario">Responsive Design</li>
+                            </ul>
+
+                            <a href="https://github.com/SantiagoArboleda19/rueda-libre.git"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="focus-ring inline-block rounded-lg bg-primario px-4 py-[0.65rem] font-semibold text-white transition duration-300 hover:-translate-y-[0.15rem] hover:bg-secundario">
+                                Ver repositorio
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- FORMACIÓN -->
+        <section id="formacion" class="bg-fondo px-6 py-12 md:px-10 md:py-16 desktop:px-8 desktop:py-20">
+            <div class="flex flex-col gap-6 md:mx-auto md:max-w-[60rem] desktop:max-w-[55rem]">
+
+                <h2 class="section-title">Formación académica</h2>
+
+                <p class="leading-[1.7] text-texto-secundario">
+                    Mi trayectoria de aprendizaje y formación
+                    en el desarrollo de software.
+                </p>
+
+                <div class="flex flex-col gap-6 pl-2">
+
+                    <article class="flex gap-4">
+                        <div class="mt-[0.4rem] h-[0.85rem] w-[0.85rem] shrink-0 rounded-full bg-primario shadow-[0_0_0_0.25rem_rgba(139,92,246,0.2)]"></div>
+
+                        <div class="flex flex-col items-start gap-[0.65rem] rounded-xl border border-secundario/20 bg-superficie p-4">
+                            <span class="text-[0.85rem] font-bold text-secundario">2026</span>
+
+                            <h3 class="text-[1.1rem] text-texto">Tecnología en Desarrollo de Software</h3>
+
+                            <h4 class="text-[0.95rem] font-medium text-secundario">Instituto Tecnológico Metropolitano (ITM)</h4>
+
+                            <p class="text-[0.9rem] leading-[1.6] text-texto-secundario">
+                                Formación tecnológica orientada al desarrollo
+                                de software y la construcción de soluciones
+                                informáticas.
+                            </p>
+
+                            <span class="rounded-[0.4rem] bg-green-500/[0.12] px-[0.7rem] py-[0.35rem] text-[0.8rem] font-semibold text-green-300">
+                                Finalizada
+                            </span>
+                        </div>
+                    </article>
+
+                    <article class="flex gap-4">
+                        <div class="mt-[0.4rem] h-[0.85rem] w-[0.85rem] shrink-0 rounded-full bg-primario shadow-[0_0_0_0.25rem_rgba(139,92,246,0.2)]"></div>
+
+                        <div class="flex flex-col items-start gap-[0.65rem] rounded-xl border border-secundario/20 bg-superficie p-4">
+                            <span class="text-[0.85rem] font-bold text-secundario">2026</span>
+
+                            <h3 class="text-[1.1rem] text-texto">Formación en Desarrollo de Software</h3>
+
+                            <h4 class="text-[0.95rem] font-medium text-secundario">Riwi</h4>
+
+                            <p class="text-[0.9rem] leading-[1.6] text-texto-secundario">
+                                Formación enfocada en el desarrollo de
+                                software, fortalecimiento de habilidades
+                                técnicas y habilidades para la vida.
+                            </p>
+
+                            <span class="rounded-[0.4rem] bg-primario/15 px-[0.7rem] py-[0.35rem] text-[0.8rem] font-semibold text-secundario">
+                                En curso
+                            </span>
+                        </div>
+                    </article>
+
+                    <article class="flex gap-4">
+                        <div class="mt-[0.4rem] h-[0.85rem] w-[0.85rem] shrink-0 rounded-full bg-primario shadow-[0_0_0_0.25rem_rgba(139,92,246,0.2)]"></div>
+
+                        <div class="flex flex-col items-start gap-[0.65rem] rounded-xl border border-secundario/20 bg-superficie p-4">
+                            <span class="text-[0.85rem] font-bold text-secundario">2022</span>
+
+                            <h3 class="text-[1.1rem] text-texto">Media Técnica en Desarrollo de Software</h3>
+
+                            <h4 class="text-[0.95rem] font-medium text-secundario">IE. Jose Acevedo y Gomez / Pascual Bravo</h4>
+
+                            <p class="text-[0.9rem] leading-[1.6] text-texto-secundario">
+                                Formación técnica en desarrollo de software
+                                durante la etapa de educación media.
+                            </p>
+
+                            <span class="rounded-[0.4rem] bg-green-500/[0.12] px-[0.7rem] py-[0.35rem] text-[0.8rem] font-semibold text-green-300">
+                                Finalizada
+                            </span>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- CONTACTO -->
+        <section id="contacto" class="bg-superficie px-6 py-12 md:px-10 md:py-16 desktop:px-8 desktop:py-20">
+            <div class="flex flex-col items-center gap-6 text-center md:mx-auto md:max-w-[60rem] desktop:max-w-[65rem]">
+
+                <h2 class="section-title after:mx-auto">¡Hablemos!</h2>
+
+                <p class="leading-[1.7] text-texto-secundario">
+                    ¿Tienes una idea, un proyecto o una oportunidad
+                    interesante? Me gustaría conocerla.
+                    ¡Pongámonos en contacto!
+                </p>
+
+                <div class="flex w-full flex-col gap-4 md:flex-row md:flex-wrap desktop:flex-nowrap">
+
+                    <a href="mailto:santiago.arboledavahos19@gmail.com"
+                    class="focus-ring flex flex-col gap-[0.4rem] rounded-xl border border-secundario/20 bg-fondo p-4 transition duration-300 hover:-translate-y-[0.15rem] hover:border-primario md:flex-[1_1_13rem]">
+                        <h3 class="text-[1rem] text-secundario">Correo electrónico</h3>
+                        <p class="text-[0.9rem] text-texto-secundario">santiago.arboledavahos19@gmail.com</p>
+                    </a>
+
+                    <a href="https://github.com/SantiagoArboleda19"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="focus-ring flex flex-col gap-[0.4rem] rounded-xl border border-secundario/20 bg-fondo p-4 transition duration-300 hover:-translate-y-[0.15rem] hover:border-primario md:flex-[1_1_13rem]">
+                        <h3 class="text-[1rem] text-secundario">GitHub</h3>
+                        <p class="text-[0.9rem] text-texto-secundario">Conoce mis proyectos</p>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/santiago-arboleda-vahos-74a112382/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="focus-ring flex flex-col gap-[0.4rem] rounded-xl border border-secundario/20 bg-fondo p-4 transition duration-300 hover:-translate-y-[0.15rem] hover:border-primario md:flex-[1_1_13rem]">
+                        <h3 class="text-[1rem] text-secundario">LinkedIn</h3>
+                        <p class="text-[0.9rem] text-texto-secundario">Conectemos profesionalmente</p>
+                    </a>
+
+                </div>
+
+                <a href="mailto:santiago.arboledavahos19@gmail.com"
+                class="focus-ring inline-block rounded-[0.6rem] bg-primario px-[1.8rem] py-[0.8rem] font-semibold text-white transition duration-300 hover:-translate-y-[0.15rem] hover:bg-secundario">
+                    Enviarme un correo
+                </a>
+
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="border-t border-secundario/20 bg-fondo px-6 py-10 md:px-10 md:py-12 desktop:px-16">
+        <div class="flex flex-col items-center gap-5 text-center">
+
+            <a href="#inicio" class="focus-ring font-titulos text-2xl font-extrabold text-texto focus-visible:outline-offset-4">
+                SantiDev<span class="text-primario">.</span>
+            </a>
+
+            <p class="text-[0.9rem] text-texto-secundario">
+                Construyendo soluciones, aprendiendo constantemente.
+            </p>
+
+            <div class="flex gap-6">
+                <a href="https://github.com/SantiagoArboleda19"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="focus-ring text-[0.9rem] text-secundario transition-colors duration-300 hover:text-texto focus-visible:outline-offset-4">
+                    GitHub
+                </a>
+
+                <a href="https://www.linkedin.com/in/santiago-arboleda-vahos-74a112382/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="focus-ring text-[0.9rem] text-secundario transition-colors duration-300 hover:text-texto focus-visible:outline-offset-4">
+                    LinkedIn
+                </a>
+            </div>
+
+            <div class="h-px w-full bg-secundario/20"></div>
+
+            <p class="text-[0.8rem] text-texto-secundario">
+                © 2026 SantiDev. Todos los derechos reservados.
+            </p>
+
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
