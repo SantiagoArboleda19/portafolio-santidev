@@ -13,7 +13,7 @@
 
 @layer components {
   .section-title {
-    @apply text-[1.75rem] text-texto desktop:text-[2.2rem]
+    @apply text-[1.75rem] text-texto lg:text-[2.2rem]
       after:content-[''] after:block after:w-12 after:h-[0.2rem] after:mt-2
       after:bg-primario after:rounded-2xl;
   }

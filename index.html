@@ -20,8 +20,7 @@
 
 <body class="bg-fondo font-textos text-base leading-[1.6] text-texto">
 
-    <!-- HEADER -->
-    <header class="flex w-full flex-col items-center gap-5 bg-fondo px-6 py-5 md:flex-row md:justify-between md:px-10 md:py-6 desktop:px-16">
+    <header class="flex w-full flex-col items-center gap-5 bg-fondo px-6 py-5 md:flex-row md:justify-between md:px-10 md:py-6 lg:px-16">
 
         <a href="#inicio" class="font-titulos text-2xl font-extrabold text-texto">
             SantiDev<span class="text-primario">.</span>
@@ -29,12 +28,12 @@
 
         <nav aria-label="Navegación principal">
 
-            <ul class="flex flex-row flex-wrap items-center justify-center gap-3 md:gap-2 desktop:gap-4">
-                <li><a href="#sobre-mi" class="focus-ring inline-block rounded-lg px-[0.65rem] py-[0.4rem] text-[0.9rem] font-medium text-texto-secundario transition-colors duration-300 hover:bg-superficie hover:text-texto desktop:text-base">Sobre mí</a></li>
-                <li><a href="#tecnologias" class="focus-ring inline-block rounded-lg px-[0.65rem] py-[0.4rem] text-[0.9rem] font-medium text-texto-secundario transition-colors duration-300 hover:bg-superficie hover:text-texto desktop:text-base">Habilidades y tecnologías</a></li>
-                <li><a href="#proyectos" class="focus-ring inline-block rounded-lg px-[0.65rem] py-[0.4rem] text-[0.9rem] font-medium text-texto-secundario transition-colors duration-300 hover:bg-superficie hover:text-texto desktop:text-base">Proyectos</a></li>
-                <li><a href="#formacion" class="focus-ring inline-block rounded-lg px-[0.65rem] py-[0.4rem] text-[0.9rem] font-medium text-texto-secundario transition-colors duration-300 hover:bg-superficie hover:text-texto desktop:text-base">Formación</a></li>
-                <li><a href="#contacto" class="focus-ring inline-block rounded-lg px-[0.65rem] py-[0.4rem] text-[0.9rem] font-medium text-texto-secundario transition-colors duration-300 hover:bg-superficie hover:text-texto desktop:text-base">Contacto</a></li>
+            <ul class="flex flex-row flex-wrap items-center justify-center gap-3 md:gap-2 lg:gap-4">
+                <li><a href="#sobre-mi" class="focus-ring inline-block rounded-lg px-[0.65rem] py-[0.4rem] text-[0.9rem] font-medium text-texto-secundario transition-colors duration-300 hover:bg-superficie hover:text-texto lg:text-base">Sobre mí</a></li>
+                <li><a href="#tecnologias" class="focus-ring inline-block rounded-lg px-[0.65rem] py-[0.4rem] text-[0.9rem] font-medium text-texto-secundario transition-colors duration-300 hover:bg-superficie hover:text-texto lg:text-base">Habilidades y tecnologías</a></li>
+                <li><a href="#proyectos" class="focus-ring inline-block rounded-lg px-[0.65rem] py-[0.4rem] text-[0.9rem] font-medium text-texto-secundario transition-colors duration-300 hover:bg-superficie hover:text-texto lg:text-base">Proyectos</a></li>
+                <li><a href="#formacion" class="focus-ring inline-block rounded-lg px-[0.65rem] py-[0.4rem] text-[0.9rem] font-medium text-texto-secundario transition-colors duration-300 hover:bg-superficie hover:text-texto lg:text-base">Formación</a></li>
+                <li><a href="#contacto" class="focus-ring inline-block rounded-lg px-[0.65rem] py-[0.4rem] text-[0.9rem] font-medium text-texto-secundario transition-colors duration-300 hover:bg-superficie hover:text-texto lg:text-base">Contacto</a></li>
             </ul>
 
         </nav>
@@ -42,19 +41,17 @@
     </header>
 
 
-    <!-- CONTENIDO PRINCIPAL -->
     <main>
 
-        <!-- PORTADA -->
-        <section id="inicio" class="flex min-h-[40svh] flex-col items-center justify-center gap-8 px-6 py-4 text-center md:flex-row md:justify-between md:gap-12 md:px-10 md:py-12 md:text-left desktop:mx-auto desktop:min-h-[65svh] desktop:max-w-[75rem] desktop:gap-20 desktop:px-8 desktop:py-16">
+        <section id="inicio" class="flex min-h-[40svh] flex-col items-center justify-center gap-8 px-6 py-4 text-center md:flex-row md:justify-between md:gap-12 md:px-10 md:py-12 md:text-left lg:mx-auto lg:min-h-[65svh] lg:max-w-[75rem] lg:gap-20 lg:px-8 lg:py-16">
 
             <div class="flex flex-col items-center gap-4 md:flex-1 md:items-start">
 
                 <p class="text-texto-secundario">Hola, soy</p>
+                        
+                <h1 class="text-[2rem] md:text-[2.5rem] lg:text-[3.5rem]">Santiago Arboleda</h1>
 
-                <h1 class="text-[2rem] md:text-[2.5rem] desktop:text-[3.5rem]">Santiago Arboleda</h1>
-
-                <h2 class="text-[1.5rem] text-secundario desktop:text-[2rem]">Desarrollador de Software</h2>
+                <h2 class="text-[1.5rem] text-secundario lg:text-[2rem]">Desarrollador de Software</h2>
 
                 <p class="text-texto-secundario">
                     Apasionado por la tecnología y el desarrollo
@@ -70,7 +67,7 @@
 
             <figure>
                 <img
-                    class="h-[11.25rem] w-[11.25rem] rounded-full border-[0.19rem] border-primario object-cover md:h-60 md:w-60 desktop:h-[19rem] desktop:w-[19rem]"
+                    class="h-[11.25rem] w-[11.25rem] rounded-full border-[0.19rem] border-primario object-cover md:h-60 md:w-60 lg:h-[19rem] lg:w-[19rem]"
                     src="img/foto-perfil.jpeg"
                     alt="Fotografía de Santiago Arboleda"
                 >
@@ -79,9 +76,8 @@
         </section>
 
 
-        <!-- SOBRE MÍ -->
-        <section id="sobre-mi" class="bg-superficie px-6 py-12 md:px-10 md:py-16 desktop:px-8 desktop:py-20">
-            <div class="flex flex-col gap-5 md:mx-auto md:max-w-[60rem] desktop:max-w-[55rem]">
+        <section id="sobre-mi" class="bg-superficie px-6 py-12 md:px-10 md:py-16 lg:px-8 lg:py-20">
+            <div class="flex flex-col gap-5 md:mx-auto md:max-w-[60rem] lg:max-w-[55rem]">
                 <h2 class="section-title">Sobre mí</h2>
 
                 <p class="leading-[1.7] text-texto-secundario">
@@ -101,13 +97,12 @@
         </section>
 
 
-        <!-- TECNOLOGÍAS -->
-        <section id="tecnologias" class="bg-fondo px-6 py-12 md:px-10 md:py-16 desktop:px-8 desktop:py-20">
-            <div class="flex flex-col gap-6 md:mx-auto md:max-w-[60rem] desktop:grid desktop:grid-cols-2 desktop:gap-x-12">
+        <section id="tecnologias" class="bg-fondo px-6 py-12 md:px-10 md:py-16 lg:px-8 lg:py-20">
+            <div class="flex flex-col gap-6 md:mx-auto md:max-w-[60rem] lg:grid lg:grid-cols-2 lg:gap-x-12">
 
-                <h2 class="section-title desktop:col-span-full">Habilidades y tecnologías</h2>
+                <h2 class="section-title lg:col-span-full">Habilidades y tecnologías</h2>
 
-                <p class="leading-[1.7] text-texto-secundario desktop:col-span-full">
+                <p class="leading-[1.7] text-texto-secundario lg:col-span-full">
                     Herramientas y habilidades que forman parte
                     de mi formación y crecimiento profesional.
                 </p>
@@ -144,9 +139,8 @@
         </section>
 
 
-        <!-- PROYECTOS -->
-        <section id="proyectos" class="bg-superficie px-6 py-12 md:px-10 md:py-16 desktop:px-8 desktop:py-20">
-            <div class="flex flex-col gap-6 md:mx-auto md:max-w-[60rem] desktop:max-w-[75rem]">
+        <section id="proyectos" class="bg-superficie px-6 py-12 md:px-10 md:py-16 lg:px-8 lg:py-20">
+            <div class="flex flex-col gap-6 md:mx-auto md:max-w-[60rem] lg:max-w-[75rem]">
 
                 <h2 class="section-title">Mis proyectos</h2>
 
@@ -156,9 +150,9 @@
                     soluciones de software.
                 </p>
 
-                <div class="flex flex-col gap-6 desktop:grid desktop:grid-cols-2 desktop:gap-8">
+                <div class="flex flex-col gap-6 lg:grid lg:grid-cols-2 lg:gap-8">
 
-                    <article class="flex flex-col gap-4 rounded-xl border border-secundario/20 bg-fondo p-4 transition duration-300 desktop:hover:-translate-y-[0.3rem] desktop:hover:border-primario">
+                    <article class="flex flex-col gap-4 rounded-xl border border-secundario/20 bg-fondo p-4 transition duration-300 lg:hover:-translate-y-[0.3rem] lg:hover:border-primario">
                         <figure>
                             <img class="h-48 w-full rounded-lg object-cover md:h-56"
                                 src="img/api-peliculas.png"
@@ -191,7 +185,7 @@
                         </div>
                     </article>
 
-                    <article class="flex flex-col gap-4 rounded-xl border border-secundario/20 bg-fondo p-4 transition duration-300 desktop:hover:-translate-y-[0.3rem] desktop:hover:border-primario">
+                    <article class="flex flex-col gap-4 rounded-xl border border-secundario/20 bg-fondo p-4 transition duration-300 lg:hover:-translate-y-[0.3rem] lg:hover:border-primario">
                         <figure>
                             <img class="h-48 w-full rounded-lg object-cover md:h-56"
                                 src="img/rueda-libre.png"
@@ -228,9 +222,8 @@
         </section>
 
 
-        <!-- FORMACIÓN -->
-        <section id="formacion" class="bg-fondo px-6 py-12 md:px-10 md:py-16 desktop:px-8 desktop:py-20">
-            <div class="flex flex-col gap-6 md:mx-auto md:max-w-[60rem] desktop:max-w-[55rem]">
+        <section id="formacion" class="bg-fondo px-6 py-12 md:px-10 md:py-16 lg:px-8 lg:py-20">
+            <div class="flex flex-col gap-6 md:mx-auto md:max-w-[60rem] lg:max-w-[55rem]">
 
                 <h2 class="section-title">Formación académica</h2>
 
@@ -311,9 +304,8 @@
         </section>
 
 
-        <!-- CONTACTO -->
-        <section id="contacto" class="bg-superficie px-6 py-12 md:px-10 md:py-16 desktop:px-8 desktop:py-20">
-            <div class="flex flex-col items-center gap-6 text-center md:mx-auto md:max-w-[60rem] desktop:max-w-[65rem]">
+        <section id="contacto" class="bg-superficie px-6 py-12 md:px-10 md:py-16 lg:px-8 lg:py-20">
+            <div class="flex flex-col items-center gap-6 text-center md:mx-auto md:max-w-[60rem] lg:max-w-[65rem]">
 
                 <h2 class="section-title after:mx-auto">¡Hablemos!</h2>
 
@@ -323,7 +315,7 @@
                     ¡Pongámonos en contacto!
                 </p>
 
-                <div class="flex w-full flex-col gap-4 md:flex-row md:flex-wrap desktop:flex-nowrap">
+                <div class="flex w-full flex-col gap-4 md:flex-row md:flex-wrap lg:flex-nowrap">
 
                     <a href="mailto:santiago.arboledavahos19@gmail.com"
                     class="focus-ring flex flex-col gap-[0.4rem] rounded-xl border border-secundario/20 bg-fondo p-4 transition duration-300 hover:-translate-y-[0.15rem] hover:border-primario md:flex-[1_1_13rem]">
@@ -361,8 +353,7 @@
     </main>
 
 
-    <!-- FOOTER -->
-    <footer class="border-t border-secundario/20 bg-fondo px-6 py-10 md:px-10 md:py-12 desktop:px-16">
+    <footer class="border-t border-secundario/20 bg-fondo px-6 py-10 md:px-10 md:py-12 lg:px-16">
         <div class="flex flex-col items-center gap-5 text-center">
 
             <a href="#inicio" class="focus-ring font-titulos text-2xl font-extrabold text-texto focus-visible:outline-offset-4">

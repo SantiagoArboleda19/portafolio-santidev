@@ -2,11 +2,6 @@
 module.exports = {
   content: ['./index.html'],
   theme: {
-    // Mismos breakpoints que el CSS original: tablet 768px y desktop 1200px
-    screens: {
-      md: '768px',
-      desktop: '1200px',
-    },
     extend: {
       colors: {
         fondo: '#0F0B1A',
